@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ενδιαφέρον για Φουσκωτά Τζακούζι</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 24px;
+    }
+    p {
+      text-align: center;
+      color: #555;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    select, input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 25px;
+      width: 100%;
+      padding: 12px;
+      background: #0077cc;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005fa3;
+    }
+    .note {
+      margin-top: 15px;
+      font-size: 13px;
+      color: #777;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Θα σε ενδιέφερε ένα φουσκωτό τζακούζι;</h1>
+    <p>Απάντησε σε 1 λεπτό – μας βοηθάς να δούμε αν υπάρχει ενδιαφέρον</p>
+
+    <form>
+      <label>1. Θα σε ενδιέφερε να έχεις φουσκωτό τζακούζι στο σπίτι;</label>
+      <select>
+        <option>Ναι, σίγουρα</option>
+        <option>Ίσως</option>
+        <option>Όχι</option>
+      </select>
+
+      <label>2. Πού θα το τοποθετούσες;</label>
+      <select>
+        <option>Μπαλκόνι</option>
+        <option>Κήπος</option>
+        <option>Ταράτσα</option>
+        <option>Εσωτερικό χώρο</option>
+      </select>
+
+      <label>3. Ποιο κόστος θα θεωρούσες λογικό;</label>
+      <select>
+        <option>Έως 500€</option>
+        <option>500€ – 800€</option>
+        <option>800€ – 1.200€</option>
+        <option>Πάνω από 1.200€</option>
+      </select>
+
+      <label>4. Θα σε απέτρεπε η κατανάλωση ρεύματος;</label>
+      <select>
+        <option>Όχι</option>
+        <option>Λίγο</option>
+        <option>Ναι</option>
+      </select>
+
+      <label>5. Email (προαιρετικά, για ενημέρωση)</label>
+      <input type="email" placeholder="example@email.com" />
+
+      <button type="submit">Υποβολή</button>
+    </form>
+
+    <div class="note">Δεν είναι πώληση – απλή έρευνα ενδιαφέροντος</div>
+  </div>
+</body>
+</html>
