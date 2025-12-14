@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ενδιαφέρον για Φουσκωτά Τζακούζι</title>
+  <title>Έρευνα Ενδιαφέροντος – Ενοικίαση Τζακούζι</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@
       padding: 0;
     }
     .container {
-      max-width: 600px;
+      max-width: 650px;
       margin: 40px auto;
       background: #ffffff;
       padding: 25px;
@@ -29,20 +29,24 @@
     }
     label {
       display: block;
-      margin-top: 15px;
+      margin-top: 18px;
       font-weight: bold;
     }
-    select, input[type="text"], input[type="email"] {
+    select, input[type="text"], input[type="email"], textarea {
       width: 100%;
       padding: 10px;
-      margin-top: 5px;
+      margin-top: 6px;
       border-radius: 6px;
       border: 1px solid #ccc;
     }
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
     button {
-      margin-top: 25px;
+      margin-top: 30px;
       width: 100%;
-      padding: 12px;
+      padding: 14px;
       background: #0077cc;
       color: white;
       font-size: 16px;
@@ -63,47 +67,62 @@
 </head>
 <body>
   <div class="container">
-    <h1>Θα σε ενδιέφερε ένα φουσκωτό τζακούζι;</h1>
-    <p>Απάντησε σε 1 λεπτό – μας βοηθάς να δούμε αν υπάρχει ενδιαφέρον</p>
+    <h1>Θα σε ενδιέφερε η ενοικίαση τζακούζι;</h1>
+    <p>Απάντησε σε λιγότερο από 1 λεπτό και βοήθησέ μας να αξιολογήσουμε την ιδέα</p>
 
     <form>
-      <label>1. Θα σε ενδιέφερε να έχεις φουσκωτό τζακούζι στο σπίτι;</label>
+      <label>1. Θα σε ενδιέφερε η ενοικίαση φουσκωτού τζακούζι στον χώρο σου;</label>
       <select>
         <option>Ναι, σίγουρα</option>
         <option>Ίσως</option>
         <option>Όχι</option>
       </select>
 
-      <label>2. Πού θα το τοποθετούσες;</label>
+      <label>2. Σε ποιον χώρο θα το τοποθετούσες κυρίως;</label>
       <select>
-        <option>Μπαλκόνι</option>
+        <option>Βεράντα / Μπαλκόνι</option>
         <option>Κήπος</option>
-        <option>Ταράτσα</option>
         <option>Εσωτερικό χώρο</option>
       </select>
 
-      <label>3. Ποιο κόστος θα θεωρούσες λογικό;</label>
+      <label>3. Ποιο ημερήσιο κόστος ενοικίασης θα θεωρούσες λογικό;</label>
       <select>
-        <option>Έως 500€</option>
-        <option>500€ – 800€</option>
-        <option>800€ – 1.200€</option>
-        <option>Πάνω από 1.200€</option>
+        <option>80 € / ημέρα</option>
+        <option>100 € / ημέρα</option>
+        <option>120 € / ημέρα</option>
       </select>
 
-      <label>4. Θα σε απέτρεπε η κατανάλωση ρεύματος;</label>
+      <label>4. Για πόσες ημέρες θα σε ενδιέφερε να το ενοικιάσεις;</label>
       <select>
-        <option>Όχι</option>
-        <option>Λίγο</option>
-        <option>Ναι</option>
+        <option>1 ημέρα</option>
+        <option>2–3 ημέρες</option>
+        <option>Περισσότερες ημέρες</option>
       </select>
 
-      <label>5. Email (προαιρετικά, για ενημέρωση)</label>
+      <label>5. Φύλο</label>
+      <select>
+        <option>Άντρας</option>
+        <option>Γυναίκα</option>
+        <option>Δεν επιθυμώ να απαντήσω</option>
+      </select>
+
+      <label>6. Ηλικιακή ομάδα</label>
+      <select>
+        <option>18–24</option>
+        <option>25–32</option>
+        <option>32+</option>
+      </select>
+
+      <label>7. Υπάρχει κάτι που θα σε απέτρεπε από την ενοικίαση τζακούζι;</label>
+      <textarea placeholder="Π.χ. κόστος, χώρος, κατανάλωση ρεύματος, συντήρηση..."></textarea>
+
+      <label>8. Email (προαιρετικά – για προσφορές και ενημερώσεις)</label>
       <input type="email" placeholder="example@email.com" />
 
-      <button type="submit">Υποβολή</button>
+      <button type="submit">Υποβολή απαντήσεων</button>
     </form>
 
-    <div class="note">Δεν είναι πώληση – απλή έρευνα ενδιαφέροντος</div>
+    <div class="note">Η έρευνα είναι ανώνυμη και δεν αποτελεί δέσμευση ή πώληση.</div>
   </div>
 </body>
 </html>
